@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 53em;
+}
+
+.bestbooks img, .noveltendance img, .mangatendance img {
+    width: 30%;
+    margin-right: 2%;
+}
+
+.bestbooks .firstIMG, .noveltendance .firstIMG, .mangatendance .firstIMG {
+    margin-left: -11.5%;
+}
+.bestbooks, .noveltendance, .mangatendance {
+    margin-left: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+h3 {
+    text-decoration: underline;
+}
+
+.searchBar {
+    width: 100%;
+}
+.searchBar input {
+    width: 95%;
+    border-radius: 0.5em;
+    height: 3em;
+    background-color: #E3D7D0;
+    border: solid 1px #d3beb2;
+}
+
+::placeholder {
+    padding-left: 2%;
+}
