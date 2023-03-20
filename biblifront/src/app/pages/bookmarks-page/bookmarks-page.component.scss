@@ -1,0 +1,39 @@
+body {
+    height: 78em;
+}
+.navigationBookmarks {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 0%;
+}
+
+.histo, .toread {
+    text-align: center;
+}
+
+.bookDisplay  img, .bookReadDisplay img {
+    width: 22%;
+    height: 100%;
+}
+.bookInfosDisplay {
+    margin-left: 5%;
+}
+.bookDisplay {
+    display: flex;
+    text-align: left;
+    background-color: #d3beb2;
+    width: 105%;
+    margin-left: -2%;
+    margin-bottom: 1%;
+}
+
+.bookReadDisplay {
+    display: flex;
+    text-align: left;
+    background-color: #d3beb2;
+    width: 105%;
+    margin-left: -2%;
+    margin-bottom: 1%;
+    opacity: 60%;
+}
